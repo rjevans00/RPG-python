@@ -59,4 +59,20 @@ class Person:
         return self.magic[i] ["name"]
 
     def get_spell_mp_cost(self, i):
-        return self.magic[i] ["cost"]                                   
+         return self.magic[i] ["cost"]                                   
+
+
+    def choose_action(self):
+        i = 1
+        print("actions")
+        for item in self.actions
+             print(stri(i) + ":", item)
+             i += 1
+
+
+    def choose_magic(self):
+        i = 1
+        print("magic")
+        for spell in self.magic:
+             print(str(i) + ":" , spell["name"], "(cost:", str(spell["mp"]) + ")")
+             i += 1      
